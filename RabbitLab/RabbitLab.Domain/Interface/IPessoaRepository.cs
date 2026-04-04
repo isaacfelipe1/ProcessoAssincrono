@@ -6,5 +6,8 @@ public interface IPessoaRepository
     Task AdicionarAsync(Pessoa pessoa);
     Task<IEnumerable<Pessoa>> ListarTodosAsync();
     Task<IEnumerable<Pessoa>> ListarPendentesAsync();
+    Task AtualizarStatusAsync(Pessoa pessoa);
+    Task AtualizarAsync(Pessoa pessoa);
+    Task RemoverAsync(int id);
 
 }

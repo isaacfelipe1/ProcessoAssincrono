@@ -34,4 +34,23 @@ public class PessoaService
     {
         return await _repository.ListarPendentesAsync();
     }
+
+    public async Task AtualizarPessoa(int id, string nome, int idade, string mensagem, string status)
+    {
+        var pessoaAtualizada = new Pessoa
+        {
+            Id = id,
+            Nome = nome,
+            Idade = idade,
+            ConteudoMensagem = mensagem,
+            Status = status
+        };
+
+        await _repository.AtualizarAsync(pessoaAtualizada);
+    }
+
+    public async Task RemoverPessoa(int id)
+    {
+        await _repository.RemoverAsync(id);
+    }
 }

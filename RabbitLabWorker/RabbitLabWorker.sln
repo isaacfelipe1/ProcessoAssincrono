@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37027.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitLabWorker", "RabbitLabWorker.csproj", "{8FBEAA3B-8EB6-4044-BAED-22B131621993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitLab.Domain", "..\..\..\Desktop\Diagramas\RabbitLab\RabbitLab.Domain\RabbitLab.Domain.csproj", "{E5E147BF-D991-D2DE-3BC5-173B459A5631}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitLab.Infra", "..\..\..\Desktop\Diagramas\RabbitLab\RabbitLab.Infra\RabbitLab.Infra.csproj", "{5B27B8A7-03E3-3DED-BBAA-D0F69E38793B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FBEAA3B-8EB6-4044-BAED-22B131621993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FBEAA3B-8EB6-4044-BAED-22B131621993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FBEAA3B-8EB6-4044-BAED-22B131621993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FBEAA3B-8EB6-4044-BAED-22B131621993}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E147BF-D991-D2DE-3BC5-173B459A5631}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E147BF-D991-D2DE-3BC5-173B459A5631}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E147BF-D991-D2DE-3BC5-173B459A5631}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E147BF-D991-D2DE-3BC5-173B459A5631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B27B8A7-03E3-3DED-BBAA-D0F69E38793B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B27B8A7-03E3-3DED-BBAA-D0F69E38793B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B27B8A7-03E3-3DED-BBAA-D0F69E38793B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B27B8A7-03E3-3DED-BBAA-D0F69E38793B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {695DA74A-91E9-4ABA-A4CD-A5D68023EE3A}
+	EndGlobalSection
+EndGlobal

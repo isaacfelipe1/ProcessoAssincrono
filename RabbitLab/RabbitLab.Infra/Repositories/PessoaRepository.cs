@@ -32,4 +32,23 @@ public class PessoaRepository : IPessoaRepository
         var sql = "SELECT Id, Nome, Idade, ConteudoMensagem, Status FROM MensagensProcessamento WHERE Status = 'PENDENTE'";
         return await _dbConnection.QueryAsync<Pessoa>(sql);
     }
+    public async Task AtualizarStatusAsync(Pessoa pessoa)
+    {
+        var sql = "UPDATE MensagensProcessamento SET Status = @Status WHERE Id = @Id";
+        await _dbConnection.ExecuteAsync(sql, new { pessoa.Status, pessoa.Id });
+    }
+
+    public async Task AtualizarAsync(Pessoa pessoa)
+    {
+        var sql = @"UPDATE MensagensProcessamento
+                    SET Nome = @Nome, Idade = @Idade, ConteudoMensagem = @ConteudoMensagem, Status = @Status
+                    WHERE Id = @Id";
+        await _dbConnection.ExecuteAsync(sql, pessoa);
+    }
+
+    public async Task RemoverAsync(int id)
+    {
+        var sql = "DELETE FROM MensagensProcessamento WHERE Id = @Id";
+        await _dbConnection.ExecuteAsync(sql, new { Id = id });
+    }
 }

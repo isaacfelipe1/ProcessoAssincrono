@@ -54,4 +54,34 @@ public class PessoaServiceTests
                  .And.HaveCount(2)
                  .And.Contain(p => p.Nome == "Maria");
     }
+
+    [Fact]
+    public async Task AtualizarPessoa_DeveChamarAtualizarAsyncComDadosCorretos()
+    {
+        var id = 1;
+        var nome = "Ana";
+        var idade = 30;
+        var mensagem = "Mensagem atualizada";
+        var status = "PROCESSADO";
+
+        await _service.AtualizarPessoa(id, nome, idade, mensagem, status);
+
+        _repositoryMock.Verify(r => r.AtualizarAsync(It.Is<Pessoa>(p =>
+            p.Id == id &&
+            p.Nome == nome &&
+            p.Idade == idade &&
+            p.ConteudoMensagem == mensagem &&
+            p.Status == status
+        )), Times.Once);
+    }
+
+    [Fact]
+    public async Task RemoverPessoa_DeveChamarRemoverAsyncComId()
+    {
+        var id = 2;
+
+        await _service.RemoverPessoa(id);
+
+        _repositoryMock.Verify(r => r.RemoverAsync(id), Times.Once);
+    }
 }

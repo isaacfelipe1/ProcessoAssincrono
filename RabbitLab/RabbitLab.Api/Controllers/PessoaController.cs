@@ -35,4 +35,18 @@ public class PessoaController : ControllerBase
         var lista = await _pessoaService.ObterPessoasPendentes();
         return Ok(lista);
     }
+
+    [HttpPut("{id:int}")]
+    public async Task<IActionResult> Atualizar(int id, [FromBody] PessoaUpdateRequest request)
+    {
+        await _pessoaService.AtualizarPessoa(id, request.Nome, request.Idade, request.Mensagem, request.Status);
+        return Ok(new { msg = "Atualizado com sucesso!" });
+    }
+
+    [HttpDelete("{id:int}")]
+    public async Task<IActionResult> Excluir(int id)
+    {
+        await _pessoaService.RemoverPessoa(id);
+        return Ok(new { msg = "Excluído com sucesso!" });
+    }
 }
