@@ -33,7 +33,6 @@ graph TD
     D --> E;
     D --> G;
 ```
-
 ## Projetos
 
 - `RabbitLab`: Solução principal com a API, regras de negócio e acesso a dados.
