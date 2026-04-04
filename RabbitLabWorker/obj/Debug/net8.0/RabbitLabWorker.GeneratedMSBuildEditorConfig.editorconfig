@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RabbitLabWorker
-build_property.ProjectDir = C:\Users\Remakker\source\repos\RabbitLabWorker\
+build_property.ProjectDir = C:\Users\Remakker\Desktop\Diagramas\RabbitLabWorker\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -2793,13 +2793,13 @@
     },
     "RabbitLab.Domain/1.0.0": {
       "type": "project",
-      "path": "../../../Desktop/Diagramas/RabbitLab/RabbitLab.Domain/RabbitLab.Domain.csproj",
-      "msbuildProject": "../../../Desktop/Diagramas/RabbitLab/RabbitLab.Domain/RabbitLab.Domain.csproj"
+      "path": "../RabbitLab/RabbitLab.Domain/RabbitLab.Domain.csproj",
+      "msbuildProject": "../RabbitLab/RabbitLab.Domain/RabbitLab.Domain.csproj"
     },
     "RabbitLab.Infra/1.0.0": {
       "type": "project",
-      "path": "../../../Desktop/Diagramas/RabbitLab/RabbitLab.Infra/RabbitLab.Infra.csproj",
-      "msbuildProject": "../../../Desktop/Diagramas/RabbitLab/RabbitLab.Infra/RabbitLab.Infra.csproj"
+      "path": "../RabbitLab/RabbitLab.Infra/RabbitLab.Infra.csproj",
+      "msbuildProject": "../RabbitLab/RabbitLab.Infra/RabbitLab.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2819,11 +2819,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Remakker\\source\\repos\\RabbitLabWorker\\RabbitLabWorker.csproj",
+      "projectUniqueName": "C:\\Users\\Remakker\\Desktop\\Diagramas\\RabbitLabWorker\\RabbitLabWorker.csproj",
       "projectName": "RabbitLabWorker",
-      "projectPath": "C:\\Users\\Remakker\\source\\repos\\RabbitLabWorker\\RabbitLabWorker.csproj",
+      "projectPath": "C:\\Users\\Remakker\\Desktop\\Diagramas\\RabbitLabWorker\\RabbitLabWorker.csproj",
       "packagesPath": "C:\\Users\\Remakker\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Remakker\\source\\repos\\RabbitLabWorker\\obj\\",
+      "outputPath": "C:\\Users\\Remakker\\Desktop\\Diagramas\\RabbitLabWorker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RabbitLabWorker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4097e06410a666bdd0b44aae5f0aab9057f859f")]
 [assembly: System.Reflection.AssemblyProductAttribute("RabbitLabWorker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RabbitLabWorker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
