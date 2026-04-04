@@ -3,12 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Remakker\\source\\repos\\RabbitLabWorker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8FBEAA3B-8EB6-4044-BAED-22B131621993}|RabbitLabWorker.csproj|c:\\users\\remakker\\source\\repos\\rabbitlabworker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8FBEAA3B-8EB6-4044-BAED-22B131621993}|RabbitLabWorker.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{E5E147BF-D991-D2DE-3BC5-173B459A5631}|..\\..\\..\\Desktop\\Diagramas\\RabbitLab\\RabbitLab.Domain\\RabbitLab.Domain.csproj|c:\\users\\remakker\\desktop\\diagramas\\rabbitlab\\rabbitlab.domain\\interface\\ipessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8FBEAA3B-8EB6-4044-BAED-22B131621993}|RabbitLabWorker.csproj|c:\\users\\remakker\\source\\repos\\rabbitlabworker\\appsettings.isaac.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8FBEAA3B-8EB6-4044-BAED-22B131621993}|RabbitLabWorker.csproj|solutionrelative:appsettings.isaac.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{5B27B8A7-03E3-3DED-BBAA-D0F69E38793B}|..\\..\\..\\Desktop\\Diagramas\\RabbitLab\\RabbitLab.Infra\\RabbitLab.Infra.csproj|c:\\users\\remakker\\desktop\\diagramas\\rabbitlab\\rabbitlab.infra\\repositories\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8FBEAA3B-8EB6-4044-BAED-22B131621993}|RabbitLabWorker.csproj|c:\\users\\remakker\\source\\repos\\rabbitlabworker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,10 +17,8 @@
       "RelativeMoniker": "D:0:0:{8FBEAA3B-8EB6-4044-BAED-22B131621993}|RabbitLabWorker.csproj|solutionrelative:workers\\processadormensagemworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B27B8A7-03E3-3DED-BBAA-D0F69E38793B}|..\\..\\..\\Desktop\\Diagramas\\RabbitLab\\RabbitLab.Infra\\RabbitLab.Infra.csproj|c:\\users\\remakker\\desktop\\diagramas\\rabbitlab\\rabbitlab.infra\\repositories\\pessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5E147BF-D991-D2DE-3BC5-173B459A5631}|..\\..\\..\\Desktop\\Diagramas\\RabbitLab\\RabbitLab.Domain\\RabbitLab.Domain.csproj|c:\\users\\remakker\\desktop\\diagramas\\rabbitlab\\rabbitlab.domain\\interface\\ipessoarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8FBEAA3B-8EB6-4044-BAED-22B131621993}|RabbitLabWorker.csproj|c:\\users\\remakker\\source\\repos\\rabbitlabworker\\appsettings.isaac.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8FBEAA3B-8EB6-4044-BAED-22B131621993}|RabbitLabWorker.csproj|solutionrelative:appsettings.isaac.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,13 +36,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "appsettings.Isaac.json",
               "DocumentMoniker": "C:\\Users\\Remakker\\source\\repos\\RabbitLabWorker\\appsettings.Isaac.json",
               "RelativeDocumentMoniker": "appsettings.Isaac.json",
               "ToolTip": "C:\\Users\\Remakker\\source\\repos\\RabbitLabWorker\\appsettings.Isaac.json",
               "RelativeToolTip": "appsettings.Isaac.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2026-04-04T04:31:08.468Z",
               "EditorCaption": ""
@@ -54,19 +50,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Remakker\\source\\repos\\RabbitLabWorker\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Remakker\\source\\repos\\RabbitLabWorker\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-04T04:30:36.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "IPessoaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Remakker\\Desktop\\Diagramas\\RabbitLab\\RabbitLab.Domain\\Interface\\IPessoaRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Diagramas\\RabbitLab\\RabbitLab.Domain\\Interface\\IPessoaRepository.cs",
@@ -79,13 +62,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "PessoaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Remakker\\Desktop\\Diagramas\\RabbitLab\\RabbitLab.Infra\\Repositories\\PessoaRepository.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\Diagramas\\RabbitLab\\RabbitLab.Infra\\Repositories\\PessoaRepository.cs",
               "ToolTip": "C:\\Users\\Remakker\\Desktop\\Diagramas\\RabbitLab\\RabbitLab.Infra\\Repositories\\PessoaRepository.cs",
               "RelativeToolTip": "..\\..\\..\\Desktop\\Diagramas\\RabbitLab\\RabbitLab.Infra\\Repositories\\PessoaRepository.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAewAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-04T04:19:11.153Z",
               "EditorCaption": ""
@@ -98,7 +81,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Remakker\\source\\repos\\RabbitLabWorker\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-04T04:14:00.098Z",
               "EditorCaption": ""
@@ -111,7 +94,7 @@
               "RelativeDocumentMoniker": "Workers\\ProcessadorMensagemWorker.cs",
               "ToolTip": "C:\\Users\\Remakker\\source\\repos\\RabbitLabWorker\\Workers\\ProcessadorMensagemWorker.cs",
               "RelativeToolTip": "Workers\\ProcessadorMensagemWorker.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwFEAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwFQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-04T04:12:13.142Z",
               "EditorCaption": ""
