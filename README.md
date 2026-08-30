@@ -33,6 +33,21 @@ graph TD
     D --> E;
     D --> G;
 ```
+
+### Arquitetura Implementada
+
+Abaixo está a arquitetura atual do sistema com RabbitMQ:
+
+![Arquitetura Assíncrona](processo-Assincrono/Assincrono.png)
+
+### Próximos Passos
+
+A implementação futura incluirá a integração com Redis para melhorar o desempenho e adicionar capacidades de cache:
+
+![Arquitetura com Redis](processo-Assincrono/ComRedis.png)
+
+> **Nota:** A integração com Redis ainda não foi implementada e está planejada para versões futuras do projeto.
+
 ## Projetos
 
 - `RabbitLab`: Solução principal com a API, regras de negócio e acesso a dados.
