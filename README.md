@@ -2,6 +2,21 @@
 
 Este projeto demonstra um fluxo de processamento assíncrono utilizando RabbitMQ em uma arquitetura .NET.
 
+## O que é Processamento Assíncrono?
+
+O **processamento assíncrono** é uma técnica onde operações demoradas são executadas em segundo plano, sem bloquear o fluxo principal da aplicação. Isso permite que o sistema responda imediatamente ao usuário, enquanto tarefas complexas são processadas posteriormente.
+
+### Principais Benefícios:
+
+- **Melhor Experiência do Usuário**: A aplicação responde instantaneamente, sem esperas prolongadas
+- **Escalabilidade**: Permite processar grandes volumes de requisições sem sobrecarregar o sistema
+- **Resiliência**: Se um serviço falhar, as mensagens ficam na fila aguardando reprocessamento
+- **Desacoplamento**: Os componentes do sistema funcionam de forma independente, facilitando manutenção e evolução
+
+### Como Funciona Neste Projeto:
+
+Quando uma requisição chega na API, ela é rapidamente validada e uma mensagem é enviada para o RabbitMQ. A API retorna imediatamente, enquanto serviços em segundo plano (consumers e workers) processam a mensagem quando estiverem disponíveis.
+
 ## Arquitetura
 
 O fluxo de dados segue o seguinte caminho:
