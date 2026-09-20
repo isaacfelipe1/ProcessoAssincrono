@@ -26,28 +26,6 @@ O fluxo de dados segue o seguinte caminho:
 3.  O **Consumidor** (`RabbitLabConsumer`) escuta a fila, recebe a mensagem e a processa.
 4.  Um **Worker** (`RabbitLabWorker`) pode ser usado para processamento adicional ou em segundo plano das mensagens.
 
-Abaixo está um diagrama que ilustra essa arquitetura:
-
-```mermaid
-graph TD
-    subgraph "RabbitLab"
-        A[RabbitLab.Api] --> B{RabbitLab.Application};
-        B --> C[Publica Mensagem];
-    end
-
-    subgraph "Message Broker"
-        D[(RabbitMQ)];
-    end
-
-    subgraph "Background Services"
-        E[RabbitLabConsumer] --> F{Processa Mensagem};
-        G[RabbitLabWorker] --> H{Processamento Adicional};
-    end
-
-    C --> D;
-    D --> E;
-    D --> G;
-```
 
 ### Arquitetura Implementada
 
